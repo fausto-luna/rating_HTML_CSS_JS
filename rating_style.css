@@ -1,0 +1,117 @@
+body{
+  background-color: gold;
+}
+
+#row1{
+  direction: rtl;
+  justify-content: center;
+  text-align: center;
+}
+
+#hint{
+  color: white;
+  font-size: 1rem;
+  /* padding-left: 1rem; */
+  padding-right: 1rem;
+}
+#hint:hover{
+  color: gold;
+}
+#hint:hover ~ #hint, #hint:hover{
+  color: gold;
+}
+.icecream{
+  text-align: center;
+  font-size: 7rem;
+  padding-top: 7rem;
+  color: gold;
+}
+.icecream:hover ~ .icecream, .icecream:hover{
+  color: rgb(218, 24, 114);
+}
+
+#row2{
+  height: 20vh;
+  /* background-color: indianred; */
+}
+
+#row2col1{
+  /* background-color: indianred !important; */
+  height: 100%;
+}
+
+/* #row2col2{
+  background-color: gray;
+  height: 100%;
+} */
+
+#row2col3{
+  /* background-color: green !important; */
+  height: 100%;
+}
+.col-12{
+  height: 40vh;
+  /* background-color: teal !important; */
+}
+
+.stars{
+  direction: rtl;
+}  
+
+.star{
+  /* color: rgb(242, 194, 0); */
+  color: white;
+  font-size: 6.5rem;
+  padding: 0 1rem;  /*  space out the stars  */
+}
+
+.star.rated{
+  color: rgb(218, 24, 114);
+}
+
+.star:hover ~ .star, .star:hover{
+  color: rgb(218, 24, 114);
+}
+
+#ratingMessage{
+  font-size: 4rem;
+  padding-top: 2rem;
+}
+
+#divMessagge{
+  /* background-color: blue; */
+  align-items: center;
+  align-content: center;
+  color:  rgb(218, 24, 114);
+ text-align: center;
+}
+
+.footer{
+  /* background-color: lawngreen; */
+  min-block-size: 3rem;
+  text-align: center;
+  font-size: 0.7rem;
+  color: gold;
+}
+.footer:hover{
+  color: rgb(218, 24, 114)
+}
+
+#hintFooter{
+  color: white;
+  font-size: 1rem;
+  /* padding-left: 1rem; */
+
+}
+
+a{
+  color: white;
+}
+
+a:hover{
+  color: blue;
+}
+
+#hintFooter:hover > a{
+  color: blue;
+}
